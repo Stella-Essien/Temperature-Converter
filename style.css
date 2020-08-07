@@ -1,0 +1,43 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+* body {
+	background-image: url(2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+* input[type=number] {
+	width: 120px;
+	height: 30px;
+	background: #fff;
+	color: #000;
+	font-size: 20px;
+	text-align: center;
+	border: 1px solid #4d2600;
+	outline: none;
+	border-radius: 5px;
+}
+
+* temp-box {
+	position: absolute;
+	left: 40vw;
+	top: 20vh
+	height: 400px;
+	width: 250px;
+	background: webkit-linear-gradient(#686868 0%, #232723 25%, #373837 75%, #757575 100%);
+	border-radius: 20px
+	box-shadow: 10px 10px 20px #222;
+}
+
+*  p {
+	font-size: 30px;
+}
+
+* header {
+	font-size: 50px;
+}
